@@ -218,52 +218,173 @@ div.bar {
     display: block;
     width: 50%;
 }
-div.text-wrapper {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36pt;
-    line-height: 36pt;
-    color: #222222;
-    display: inline-block;
-}
-div.equality {
-    background-color: #f44336;
+div.v1 {
+    background-color: #A06741;
     text-align: left;
     border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
 }
-div.wealth {
-    background-color: #00897b;
+div.v2 {
+    background-color: #1B914A;
     text-align: right;
     border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
 }
-div.liberty {
-    background-color: #ffeb3b;
+div.v3 {
+    background-color: #AF4474;
     text-align: left;
     border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
 }
-div.authority {
-    background-color: #3f51b5;
+div.v4 {
+    background-color: #2280AA;
     text-align: right;
     border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
 }
-div.peace {
-    background-color: #03a9f4;
-    text-align: right;
-    border-left-style: solid;
-}
-div.might {
-    background-color: #ff9800;
+div.v5 {
+    background-color: #FF338F;
     text-align: left;
     border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
 }
-div.progress {
-    background-color: #9c27b0;
+div.v6 {
+    background-color: #E8A749;
     text-align: right;
     border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
 }
-div.tradition {
-    background-color: #8bc34a;
+div.v7 {
+    background-color: #991A22;
     text-align: left;
     border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v8 {
+    background-color: #FFBAE4;
+    text-align: right;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v9 {
+    background-color: #69C196;
+    text-align: left;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v10 {
+    background-color: #728FBD;
+    text-align: right;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v11 {
+    background-color: #FF8869;
+    text-align: left;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v12 {
+    background-color: #36824F;
+    text-align: right;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v13 {
+    background-color: #B5E61D;
+    text-align: left;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v14 {
+    background-color: #3F48CC;
+    text-align: right;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v15 {
+    background-color: #99D9EA;
+    text-align: left;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v16 {
+    background-color: #22B14C;
+    text-align: right;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v17 {
+    background-color: #940AAD;
+    text-align: left;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v18 {
+    background-color: #C00000;
+    text-align: right;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v19 {
+    background-color: #FF9800;
+    text-align: left;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v20 {
+    background-color: #6D9FAA;
+    text-align: right;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v21 {
+    background-color: #C18ACC;
+    text-align: left;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v22 {
+    background-color: #FFD880;
+    text-align: right;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v23 {
+    background-color: #33C900;
+    text-align: left;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v24 {
+    background-color: #B56779;
+    text-align: right;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
 }
 span.weight-300 {
     font-weight: 300;
