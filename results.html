@@ -101,24 +101,26 @@
         }
     }
 
-    b1Array = ["Demagogue","Party","Popular","Neutral","Advised","Expert","Technocrat"]
-    b2Array = ["Planned","Directed","Regulated","Neutral","Permission","Market","Laissez Faire"]
-    b3Array = ["Chauvinist","Nationalist","Patriotic","Neutral","Spreadable","International","Universal"]
-    b4Array = ["Songun","Stockpile","Militarist","Neutral","Peaceful","Disarmed","Pacifist"]
-    b5Array = ["Industrial","Proletarian","Worker","Neutral","Farmer","Peasant","Agrarian"]
-    b6Array = ["Homogen","Uniform","Integration","Neutral","Mixed","Tolerant","Diverse"]
-    b7Array = ["Reactionary","Traditional","Conservative","Neutral","Reformist","Progressive","Revolutionary"]
-    b8Array = ["Everyman","Populist","Appealing","Neutral","Establishment","Elitist","Aristocratic"]
+    b1Array = ["On Centrelink","Communist","Socialist","Collective","Welfarist","Monetary","Economic Liberal","Capitalist","Propertarian","10"]
+    b2Array = ["Bing Chilling","Commanded","Planned","Directed","Regulated","Intervening","Deregulated","Free Market","Laissez Faire","Heisenbergism"]
+    b3Array = ["Landlord Killer","Georgist","Georgist","Distributed","Distributed","Property Ownership","Property Ownership","Pro-Landlord","Timocratic","Paul McCartney Autograph Stealer"]
+    b4Array = ["Mitreist","Autarky","Mercantilist","Protectionist","Limited Trade","Trade","Free Trade","Global Trade","Interdependent","Pitbullism"]
+    b5Array = ["Literally 1984","Totalitarian","Authoritarian","Statist","Ordoliberal","Liberal","Libertarian","Minarchist","Anarchist","Ego-Peterism"]
+    b6Array = ["Eshayist","Hedonistic","Emancipatory","Tolerant","Lenient","Paternal","Restrictive","Controlling","Brutal","www.youtube.com/watch?v=zlcB9slUPWk"]
+    b7Array = ["Sleepover Movie Democracy","Radical Democracy","Direct Democracy","Semi-Direct Democratic","Representative Democratic","Republic","Constitutional","Oligarchic","Autocratic","Single-Mind"]
+    b8Array = ["Demarchic","Kakistocratic","Ochlocratic","Populist","Democratic","Meritocratic","Noocratic","Technocratic","Scientocratic","Inspector Gadgetarianism"]
 
     function setLabel(val,ary) {
-        if (val > 100) { return "" } else
-        if (val > 85) { return ary[0] } else
-        if (val > 70) { return ary[1] } else
-        if (val > 55) { return ary[2] } else
-        if (val >= 45) { return ary[3] } else
-        if (val >= 30) { return ary[4] } else
-        if (val >= 15) { return ary[5] } else
-        if (val >= 0) { return ary[6] } else
+        if (val > 99) { return ary[0] } else
+        if (val > 95) { return ary[1] } else
+        if (val > 85) { return ary[2] } else
+        if (val > 70) { return ary[3] } else
+        if (val > 55) { return ary[4] } else
+        if (val >= 45) { return ary[5] } else
+        if (val >= 30) { return ary[6] } else
+        if (val >= 15) { return ary[7] } else
+        if (val >= 5) { return ary[8] } else
+        if (val >= 1) { return ary[9] } else
         	{return ""}
     }
 
