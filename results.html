@@ -111,16 +111,16 @@
     b8Array = ["Demarchic","Kakistocratic","Ochlocratic","Populist","Democratic","Meritocratic","Noocratic","Technocratic","Scientocratic","Inspector Gadgetarianism"]
 
     function setLabel(val,ary) {
-        if (val > 99) { return ary[1] } else
-        if (val > 95) { return ary[2] } else
-        if (val > 85) { return ary[3] } else
-        if (val > 70) { return ary[4] } else
+        if (val > 99.9) { return ary[9] } else
+        if (val > 90) { return ary[8] } else
+        if (val > 75) { return ary[7] } else
+        if (val > 60) { return ary[6] } else
         if (val > 55) { return ary[5] } else
-        if (val >= 45) { return ary[6] } else
-        if (val >= 30) { return ary[7] } else
-        if (val >= 15) { return ary[8] } else
-        if (val >= 5) { return ary[9] } else
-        if (val >= 1) { return ary[0] } else
+        if (val > 45) { return ary[4] } else
+        if (val > 40) { return ary[3] } else
+        if (val > 35) { return ary[2] } else
+        if (val > 10) { return ary[1] } else
+        if (val >= 0.1) { return ary[0] } else
         	{return ""}
     }
 
