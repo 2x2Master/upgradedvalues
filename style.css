@@ -240,91 +240,91 @@ div.v3 {
 	font-size: 250%;
 }
 div.v4 {
-    background-color: #0bff27;
-    text-align: right;
-    border-left-style: solid;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 250%;
-}
-div.v5 {
-    background-color: #ff00c0;
-    text-align: left;
-    border-right-style: solid;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 250%;
-}
-div.v6 {
     background-color: #eaa000;
     text-align: right;
     border-left-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
-div.v7 {
+div.v5 {
     background-color: #03ff00;
     text-align: left;
     border-right-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
-div.v8 {
+div.v6 {
     background-color: #ffe600;
     text-align: right;
     border-left-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
-div.v9 {
+div.v7 {
     background-color: #237bff;
     text-align: left;
     border-right-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
-div.v10 {
+div.v8 {
     background-color: #ffc000;
     text-align: right;
     border-left-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
-div.v11 {
+div.v9 {
     background-color: #0fd1a5;
     text-align: left;
     border-right-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
-div.v12 {
+div.v10 {
     background-color: #ff3a18;
     text-align: right;
     border-left-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
-div.v13 {
+div.v11 {
     background-color: #0dff0d;
     text-align: left;
     border-right-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
-div.v14 {
+div.v12 {
     background-color: #237bff;
     text-align: right;
     border-left-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
-div.v15 {
+div.v13 {
     background-color: #fff200;
     text-align: left;
     border-right-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
-div.v16 {
+div.v14 {
     background-color: #bf16ff;
+    text-align: right;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v15 {
+    background-color: #6eff5b;
+    text-align: left;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v16 {
+    background-color: #ff0e1c;
     text-align: right;
     border-left-style: solid;
 	font-family: 'Montserrat', sans-serif;
