@@ -30,10 +30,10 @@
 <button class="small_button_off" id="back_button_off">Back</button><br>
 
 <script>
-    var max_b1, max_b2, max_b3, max_b4, max_b5, max_b6, max_b7, max_b8; // Max possible scores
-    max_b1 = max_b2 = max_b3 = max_b4 = max_b5 = max_b6 = max_b7 = max_b8 = 0;
-    var b1, b2, b3, b4, b5, b6, b7, b8; // User's scores
-    b1 = b2 = b3 = b4 = b5 = b6 = b7 = b8 = 0;
+    var max_b1, max_b2, max_b3, max_b4, max_b5, max_b6, max_b7, max_b8, max_b9, max_b10, max_b11, max_b12, max_b13, max_b14, max_b15, max_b16; // Max possible scores
+    max_b1 = max_b2 = max_b3 = max_b4 = max_b5 = max_b6 = max_b7 = max_b8 = max_b9 = max_b10 = max_b11 = max_b12 = max_b13 = max_b14 = max_b15 = max_b16 = 0;
+    var b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16; // User's scores
+    b1 = b2 = b3 = b4 = b5 = b6 = b7 = b8 = b9 = b10 = b11 = b12 = b13 = b14 = b15 = b16 = 0;
     var qn = 0; // Question number
     var prev_answer = null;
     init_question();
@@ -46,6 +46,14 @@
         max_b6 += Math.abs(questions[i].effect.b6)
         max_b7 += Math.abs(questions[i].effect.b7)
         max_b8 += Math.abs(questions[i].effect.b8)
+        max_b9 += Math.abs(questions[i].effect.b9)
+        max_b10 += Math.abs(questions[i].effect.b10)
+        max_b11 += Math.abs(questions[i].effect.b11)
+        max_b12 += Math.abs(questions[i].effect.b12)
+        max_b13 += Math.abs(questions[i].effect.b13)
+        max_b14 += Math.abs(questions[i].effect.b14)
+        max_b15 += Math.abs(questions[i].effect.b15)
+        max_b16 += Math.abs(questions[i].effect.b16)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
@@ -69,6 +77,14 @@
         b6 += mult*questions[qn].effect.b6
         b7 += mult*questions[qn].effect.b7
         b8 += mult*questions[qn].effect.b8
+        b9 += mult*questions[qn].effect.b9
+        b10 += mult*questions[qn].effect.b10
+        b11 += mult*questions[qn].effect.b11
+        b12 += mult*questions[qn].effect.b12
+        b13 += mult*questions[qn].effect.b13
+        b14 += mult*questions[qn].effect.b14
+        b15 += mult*questions[qn].effect.b15
+        b16 += mult*questions[qn].effect.b16
         qn++;
         prev_answer = mult;
         if (qn < questions.length) {
@@ -90,6 +106,14 @@
         b6 -= prev_answer * questions[qn].effect.b6;
         b7 -= prev_answer * questions[qn].effect.b7;
         b8 -= prev_answer * questions[qn].effect.b8;
+        b9 -= prev_answer * questions[qn].effect.b9;
+        b10 -= prev_answer * questions[qn].effect.b10;
+        b11 -= prev_answer * questions[qn].effect.b11;
+        b12 -= prev_answer * questions[qn].effect.b12;
+        b13 -= prev_answer * questions[qn].effect.b13;
+        b14 -= prev_answer * questions[qn].effect.b14;
+        b15 -= prev_answer * questions[qn].effect.b15;
+        b16 -= prev_answer * questions[qn].effect.b16;
         prev_answer = null;
         init_question();
 
@@ -107,6 +131,14 @@
             + `&v11=${calc_score(b6,max_b6)}`
             + `&v13=${calc_score(b7,max_b7)}`
             + `&v15=${calc_score(b8,max_b8)}`
+            + `?v1=${calc_score(b9,max_b9)}`
+            + `&v3=${calc_score(b10,max_b10)}`
+            + `&v5=${calc_score(b11,max_b11)}`
+            + `&v7=${calc_score(b12,max_b12)}`
+            + `&v9=${calc_score(b13,max_b13)}`
+            + `&v11=${calc_score(b14,max_b14)}`
+            + `&v13=${calc_score(b15,max_b15)}`
+            + `&v15=${calc_score(b16,max_b16)}`
     }
 </script>
 </body>
