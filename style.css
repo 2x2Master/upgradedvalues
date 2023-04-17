@@ -275,21 +275,21 @@ div.v8 {
 	font-size: 250%;
 }
 div.v9 {
-    background-color: #0fd1a5;
+    background-color: #ff3a18;
     text-align: left;
     border-right-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
 div.v10 {
-    background-color: #0dff0d;
+    background-color: #0fd1a5;
     text-align: right;
     border-left-style: solid;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
 div.v11 {
-    background-color: #ff3a18;
+    background-color: #0dff0d;
     text-align: left;
     border-right-style: solid;
 	font-family: 'Montserrat', sans-serif;
@@ -386,6 +386,63 @@ div.v24 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 250%;
 }
+div.v25 {
+    background-color: #ff0e1c;
+    text-align: left;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v26 {
+    background-color: #6eff5b;
+    text-align: right;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v27 {
+    background-color: #ff0e1c;
+    text-align: left;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v28 {
+    background-color: #c040ff;
+    text-align: right;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v29 {
+    background-color: #a0ff00;
+    text-align: left;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v30 {
+    background-color: #ff60a0;
+    text-align: right;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v31 {
+    background-color: #ffc040;
+    text-align: left;
+    border-left-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+div.v32 {
+    background-color: #ffc000;
+    text-align: right;
+    border-right-style: solid;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 250%;
+}
+
 span.weight-300 {
     font-weight: 300;
 }
